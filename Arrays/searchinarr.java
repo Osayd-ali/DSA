@@ -13,7 +13,9 @@ public class searchinarr {
         for(int i=0; i<a.length; i++){
             if(a[i] == target){
                 System.out.println("The index of target is: "+ i);
+                System.exit(0);
             }
         }
+        System.out.println("Element not found");
     }
 }
